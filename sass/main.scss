@@ -430,7 +430,7 @@ section .offers {
 			transform: scale(1);
 			transform-origin: 50% 50%;
 			transition: transform 0.3s ease-out;
-			z-index: -1;
+			z-index: -90;
 		}
 
 		&:hover::before {
@@ -665,7 +665,7 @@ section .map {
 			left: 0;
 			height: 5px;
 			background-color: $cta-color;
-			z-index: -1;
+			z-index: -50;
 			transition: 0.3s;
 		}
 	}

@@ -536,7 +536,7 @@ section .offers__item::before {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  z-index: -1;
+  z-index: -90;
 }
 
 section .offers__item:hover::before {
@@ -796,7 +796,7 @@ section .map__box iframe {
     left: 0;
     height: 5px;
     background-color: #f05223;
-    z-index: -1;
+    z-index: -50;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
